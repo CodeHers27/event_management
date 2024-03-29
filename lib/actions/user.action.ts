@@ -4,7 +4,7 @@
 import { revalidatePath } from 'next/cache'
 
 import { connectToDatabase } from '../mongodb/database'
-import User from '../mongodb/database/models/user.model'
+import User from '@/lib/mongodb/database/models/user.model'
 import Order from '../mongodb/database/models/order.model'
 import Event from '../mongodb/database/models/event.model'
 import { handleError } from '@/lib/utils'
